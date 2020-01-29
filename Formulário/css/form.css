@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+p{
+	font-size: 18px;
+}
+header{
+	background-image: url("../images/celular.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.header-overlay{
+	background-color: rgba(31,31,31,0.45);
+}
+.header-lc{
+	padding: 30px;
+	color: #fff;
+}
+.header-title-lc{
+	padding-top: 100px;
+	padding-bottom: 250px;
+}
+.header-title-lc-l{
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.header-title-lc h1{
+	font-family:'Monsterrat';
+	font-size: 60px;
+	text-align: center;
+}
+.btn-lc,
+.btn-lc:focus,
+.btn-lc:active,
+.btn-lc:visited
+{
+	background: #C93537FF;
+	border-color:#C93537FF;
+	padding:10px 30px;
+	font-size: 19px;
+	text-transform: uppercase;
+	border-radius:0px;
+	transition: all 960ms;
+	-o-transition: all 960ms;
+	-webkit-transition: all 960ms;
+	-moz-transition: all 960ms;
+	color:#fff;
+}
+.btn-lc:hover {
+	border-color:#FF3137FF;
+	background:#FF3137FF;
+	color:#FFF;
+}
+.bot{
+	margin:auto;
+	padding-top: 50px;
+	padding-left:500px;
+}
+#formulario{
+	margin: auto;
+	height: 420px;
+	width: 320px;
+	background-color:transparent;
+	padding: 10px;
+	text-align: center;
+	}
+	#formulario textarea{
+	height: 60px;
+	resize: none;
+}
+#formulario input{
+	color:#000;
+}
+
+.bombado{
+	width:20%;
+}
